@@ -1,4 +1,3 @@
-# 🤖 **Reinforcement Learning Overview**
 <p align="center"> 
 <a href="https://github.com/Followb1ind1y"><img src="https://img.shields.io/static/v1?logo=github&label=maintainer&message=Followb1ind1y&color=eb5334" alt="Last Commit"/></a> 
 <a href="https://github.com/Followb1ind1y/Reinforcement_Learning/graphs/commit-activity"><img src="https://img.shields.io/github/last-commit/Followb1ind1y/Reinforcement_Learning.svg?colorB=eb9f34&style=flat" alt="Last Commit"/> </a> 
@@ -11,16 +10,18 @@
 <a href="https://githubtocolab.com/Followb1ind1y/Reinforcement_Learning"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="colab"/></a>       
 </p>
 
-## Projects and Study Notes about Reinforcement Learning
+# **Reinforcement Learning Overview**
+
+- Projects and Study Notes about Reinforcement Learning
 Based on [Sutton, R. S., Bach, F., &amp; Barto, A. G. (2018). Reinforcement learning: An introduction. MIT Press Ltd.](http://incompleteideas.net/book/the-book-2nd.html)
 
 
-## **Introduction**
+### **Introduction**
 
 <details>
   <summary>Click Here</summary>
 
-- **What is Reinforcement Learning?**
+ **What is Reinforcement Learning?**
 Map situations to actions → Maximize a numerical reward signal
 - **Reinforcement Learning System?**
 Policy, Reward Signal, Value Function, Model of the Environment
@@ -97,7 +98,7 @@ $$
 
 </details>
 
-## **Dynamic Programming**
+### **Dynamic Programming**
 
 <details>
   <summary>Click Here</summary>
@@ -176,7 +177,7 @@ The Bellman equations define a relation that the optimal v∗ or q∗ must obey.
 
 [Dynamic_Programming.ipynb](https://github.com/Followb1ind1y/Reinforcement_Learning/blob/main/Dynamic_Programming.ipynb)
 
-## **Monte Carlo Methods**
+### **Monte Carlo Methods**
 
 <details>
   <summary>Click Here</summary>
@@ -283,7 +284,7 @@ Processing the episode in reverse-time ensures we run the computation to the ter
 
 [CartPole.ipynb](https://github.com/Followb1ind1y/Reinforcement_Learning/blob/main/CartPole.ipynb)
 
-## **Temporal-Difference Learning**
+### **Temporal-Difference Learning**
 
 <details>
   <summary>Click Here</summary>
@@ -391,7 +392,7 @@ We can improve GPI with epsilon-greedy policies by making epsilon adaptive, e.g.
 
 </details>    
 
-## **TD(n)**
+### **TD(n)**
 
 <details>
   <summary>Click Here</summary>
@@ -478,7 +479,7 @@ Can directly access transition probabilities
 
 [TD(n)_and_Mountain_Car.ipynb](https://github.com/Followb1ind1y/Reinforcement_Learning/blob/main/TD(n)_and_Mountain_Car.ipynb)
 
-## **Function Approximation**
+### **Function Approximation**
 
 <details>
   <summary>Click Here</summary>
@@ -560,7 +561,7 @@ For problems with **very large datasets**, repeated computation of $E$ with the 
 [Function_Approx_and_SARSA.ipynb](https://github.com/Followb1ind1y/Reinforcement_Learning/blob/main/Function_Approx_and_SARSA.ipynb)
         
 
-## **Prediction and Control with Function Approximation**
+### **Prediction and Control with Function Approximation**
 
 <details>
   <summary>Click Here</summary>
@@ -656,7 +657,7 @@ We can obtain an n-step version of episodic semi-gradient Sarsa by using an n-st
 </details>
     
 
-## **Policy Gradient**
+### **Policy Gradient**
 
 <details>
   <summary>Click Here</summary>
@@ -742,7 +743,7 @@ The policy gradient theorem gives an exact expression proportional to the gradie
 </details>
     
 
-## **Planning**
+### **Planning**
 
 <details>
   <summary>Click Here</summary>
