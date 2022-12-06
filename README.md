@@ -107,13 +107,11 @@ Start by choosing arbitrarily v0 and keep update the Bellman equation until we r
 
 - **Policy Improvement**
     
-    $$
-    \begin{align}
+    $$\begin{align}
     \pi'(s)&\doteq \argmax_{a}q_{\pi}(s,a) \\
     &= \argmax_{a} \mathbb{E}[R_{t+1}+\gamma v_{\pi}(S_{t+1})|S_{t}=s, A_{t}=a] \\
     &= \argmax_{a}\sum_{s',r}p(s',r|s,a)[r+\gamma v_{\pi}(s')] \\
-    \end{align}
-    $$
+    \end{align}$$
     
     Selecting at each state the action that appears best according to $q_{\pi}(s,a)$ to make the new policy improves on original policy.
     
