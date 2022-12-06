@@ -47,9 +47,7 @@ $$S_{0},A_{0},R_{1},S_{1},A_{1},R_{2},S_{2},A_{2},R_{3},...$$
 
 - **The environment information we have** → The probability of next state and reward given current state and action selected
     
-    $$
-    p(s',r|s,a)\doteq \mathrm{Pr}({S_{t}=s',R_{t}=r}|S_{t-1}=s,A_{t-1}=a)
-    $$
+    $$p(s',r|s,a)\doteq \mathrm{Pr}({S_{t}=s',R_{t}=r}|S_{t-1}=s,A_{t-1}=a)$$
     
     The probability that the next state is s’ and reward is r when we choose action a at state s.(Since when we choose action, the next state is not stable and will follow a distribution)
     
@@ -71,21 +69,15 @@ $$S_{0},A_{0},R_{1},S_{1},A_{1},R_{2},S_{2},A_{2},R_{3},...$$
     
 - $\gamma$ is a parameter, $0\leq\gamma\leq1$, called the ***discount rate.*** As $\gamma$ close to 0, the agent will try to maximize immediate rewards. As $\gamma$. close to 1, the agent will care more about the future reward.
     
-    $$
-    G_{t}\doteq R_{t+1}+\gamma R_{t+2}+\gamma^{2}R_{t+3}+...=\sum^{\infty}_{k=0}\gamma^{k}R_{t+k+1},
-    $$
+    $$G_{t}\doteq R_{t+1}+\gamma R_{t+2}+\gamma^{2}R_{t+3}+...=\sum^{\infty}_{k=0}\gamma^{k}R_{t+k+1},$$
     
 - **Optimal Policies** and **Optimal Value Functions**
     
-    $$
-    v_{*}(s)\doteq\max_{\pi}v_{\pi}(s), \mathrm{\ for \ all \ } s\in\mathcal{S}
-    $$
+    $$v_{*}(s)\doteq\max_{\pi}v_{\pi}(s), \mathrm{\ for \ all \ } s\in\mathcal{S}$$
     
     Pick the best policy pi which could produce the max output of state-value function.
     
-    $$
-    q_{*}(s,a)\doteq\max_{\pi}q_{\pi}(s,a), \mathrm{\ for \ all \ } s\in\mathcal{S}\mathrm{\ and\ } a \in \mathcal{A} 
-    $$
+    $$q_{*}(s,a)\doteq\max_{\pi}q_{\pi}(s,a), \mathrm{\ for \ all \ } s\in\mathcal{S}\mathrm{\ and\ } a \in \mathcal{A} $$
     
 - **What do we need to directly use Bellman optimality equation to find optimal policy?**
     1. the dynamics of the environment are accurately known; 
