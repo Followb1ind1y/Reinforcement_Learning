@@ -43,9 +43,9 @@ Policy, Reward Signal, Value Function, Model of the Environment
 > - $S_{t}$ : State at time $t$   - $A_{t}$: Action selected at time $t$   - $R_{t}$: Reward at time $t$
 > 
 
-$$
+$
 S_{0},A_{0},R_{1},S_{1},A_{1},R_{2},S_{2},A_{2},R_{3},...
-$$
+$
 
 - **The environment information we have** → The probability of next state and reward given current state and action selected
     
