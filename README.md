@@ -69,7 +69,7 @@ $$S_{0},A_{0},R_{1},S_{1},A_{1},R_{2},S_{2},A_{2},R_{3},...$$
     
 - $\gamma$ is a parameter, $0\leq\gamma\leq1$, called the ***discount rate.*** As $\gamma$ close to 0, the agent will try to maximize immediate rewards. As $\gamma$. close to 1, the agent will care more about the future reward.
     
-    $$G_{t}\doteq R_{t+1}+\gamma R_{t+2}+\gamma^{2}R_{t+3}+...=\sum^{\infty}_{k=0}\gamma^{k}R_{t+k+1},$$
+$$G_{t}\doteq R_{t+1}+\gamma R_{t+2}+\gamma^{2}R_{t+3}+...=\sum^{\infty}_{k=0}\gamma^{k}R_{t+k+1},$$
     
 - **Optimal Policies** and **Optimal Value Functions**
     
