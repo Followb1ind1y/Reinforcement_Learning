@@ -68,9 +68,8 @@ $$S_{0},A_{0},R_{1},S_{1},A_{1},R_{2},S_{2},A_{2},R_{3},...$$
     ![Screen Shot 2022-08-04 at 1.36.00 PM.png](img/A2.png)
     
 - $\gamma$ is a parameter, $0\leq\gamma\leq1$, called the ***discount rate.*** As $\gamma$ close to 0, the agent will try to maximize immediate rewards. As $\gamma$. close to 1, the agent will care more about the future reward.
-
-$$G_{t}\doteq R_{t+1}+\gamma R_{t+2}+\gamma^{2}R_{t+3}+...=\sum_{k=0}^{\infty}\gamma^{k}R_{t+k+1},$$
-$$G_{t}\doteq R_{t+1}+\gamma R_{t+2}+\gamma^{2}R_{t+3}+...=\sum^{\infty}_{k=0}\gamma^{k}R_{t+k+1},$$
+    
+    $$G_{t}\doteq R_{t+1}+\gamma R_{t+2}+\gamma^{2}R_{t+3}+...=\sum_{k=0}^{\infty}\gamma^{k}R_{t+k+1},$$
     
 - **Optimal Policies** and **Optimal Value Functions**
     
@@ -108,11 +107,13 @@ Start by choosing arbitrarily v0 and keep update the Bellman equation until we r
 
 - **Policy Improvement**
     
-    $$\begin{align}
+    $$
+    \begin{align}
     \pi'(s)&\doteq \argmax_{a}q_{\pi}(s,a) \\
     &= \argmax_{a} \mathbb{E}[R_{t+1}+\gamma v_{\pi}(S_{t+1})|S_{t}=s, A_{t}=a] \\
     &= \argmax_{a}\sum_{s',r}p(s',r|s,a)[r+\gamma v_{\pi}(s')] \\
-    \end{align}$$
+    \end{align}
+    $$
     
     Selecting at each state the action that appears best according to $q_{\pi}(s,a)$ to make the new policy improves on original policy.
     
