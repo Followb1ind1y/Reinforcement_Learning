@@ -41,12 +41,12 @@ This repository includes projects and study notes about Reinforcement Learning b
 If you use this work or code for your research please cite the original book with the following bibtex entry.
 
 ```
-@book{zhang2020dive,
+ @book{sutton_bach_barto_2018, 
     title={Reinforcement learning: An introduction},
-    author={Sutton, R. S., Bach, F., &amp; Barto, A. G.},
-    note={\url{http://incompleteideas.net/book/the-book-2nd.html}},
+    publisher={MIT Press Ltd}, 
+    author={Sutton, Richard S. and Bach, Francis and Barto, Andrew G.}, 
     year={2018}
-}
+} 
 ```
 
 ## **Licence**
