@@ -20,13 +20,7 @@
     - Online Machine Learning system learns while the system is in operation (We are concerned)
     - Offline Machine Learning system has two modes of operation: training mode and production mode
 
-<center><img src="img/A1.png" width=350px /></center>
-
-<center><img src="https://drive.google.com/uc?export=view&id=1hi0Rrj7MtFtUfr-F4VQyvH5XK03O-7Xa" width=350px /></center>
-
-![A1.png](/img/A1.png)
-
-![A1.png](https://drive.google.com/uc?export=view&id=1hi0Rrj7MtFtUfr-F4VQyvH5XK03O-7Xa)
+<center><img src="../img/A1.png" width=450px /></center>
 
 > - $S_{t}$ : State at time $t$   - $A_{t}$: Action selected at time $t$   - $R_{t}$: Reward at time $t$
 > 
@@ -53,7 +47,7 @@ $$S_{0},A_{0},R_{1},S_{1},A_{1},R_{2},S_{2},A_{2},R_{3},...$$
     
     Note: We can get $q_{\pi}(s,a)$ using $v_{\pi}$
     
-    ![A2.png](/img/A2.png)
+    <center><img src="../img/A2.png" width=450px /></center>
     
 - $\gamma$ is a parameter, $0\leq\gamma\leq1$, called the ***discount rate.*** As $\gamma$ close to 0, the agent will try to maximize immediate rewards. As $\gamma$. close to 1, the agent will care more about the future reward.
     
