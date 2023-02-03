@@ -20,7 +20,13 @@
     - Online Machine Learning system learns while the system is in operation (We are concerned)
     - Offline Machine Learning system has two modes of operation: training mode and production mode
 
+<center><img src="img/A1.png" width=350px /></center>
+
+<center><img src="https://drive.google.com/uc?export=view&id=1hi0Rrj7MtFtUfr-F4VQyvH5XK03O-7Xa" width=350px /></center>
+
 ![A1.png](/img/A1.png)
+
+![A1.png](https://drive.google.com/uc?export=view&id=1hi0Rrj7MtFtUfr-F4VQyvH5XK03O-7Xa)
 
 > - $S_{t}$ : State at time $t$   - $A_{t}$: Action selected at time $t$   - $R_{t}$: Reward at time $t$
 > 
